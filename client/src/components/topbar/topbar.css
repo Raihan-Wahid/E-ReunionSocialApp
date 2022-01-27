@@ -1,0 +1,421 @@
+.topbarContainer {
+    height: 50px;
+    width: 100%;
+    background-color: #1877f2;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.topbarLeft {
+    flex: 3;
+}
+
+.logo {
+    font-size: 24px;
+    margin-left: 20px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+
+.topbarCenter {
+    flex: 5;
+}
+
+.searchbar {
+    width: 100%;
+    height: 30px;
+    background-color: white;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.searchIcon {
+    font-size: 20px !important;
+    margin-left: 10px;
+}
+
+.searchInput {
+    border: none;
+    width: 70%;
+}
+
+.searchInput:focus {
+    outline: none;
+}
+
+.topbarRight {
+    flex: 4;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+}
+
+.topbarLink {
+    margin-right: 10px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.topbarIcons {
+    display: flex;
+}
+
+.topbarIconItem {
+    margin-right: 15px;
+    cursor: pointer;
+    position: relative;
+}
+
+.topbarIconBadge {
+    width: 15px;
+    height: 15px;
+    background-color: red;
+    border-radius: 50%;
+    color: white;
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+}
+
+.topbarImg {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.arrowIconArea {
+    position: relative;
+    display: inline-block;
+}
+
+
+/* .arrowIcon {
+    background-size: 21px 21px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    vertical-align: -0.25em;
+    -webkit-filter: invert(100%);
+    background-position: 0 0;
+    margin-top: 10px;
+    margin-left: 10px;
+} */
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(105, 104, 104);
+    width: 200px;
+    z-index: 1;
+    margin-left: -170px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.dropdown-content.block {
+    display: block;
+    position: absolute;
+    background-color: rgb(128, 125, 125);
+    width: 200px;
+    z-index: 1;
+    margin-left: -170px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.dropdown-content a {
+    color: #fff;
+    padding: 8px 12px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    border-radius: 10px;
+    background-color: #e1e6ec
+}
+
+.sideinfoDropAvatar {
+    display: inline-flex;
+    align-items: center;
+}
+
+.sideinfoDropAvatar>span {
+    padding-bottom: 5px;
+}
+
+
+/* .logout {
+vertical-align: -0.25em;
+-webkit-filter: invert(62%) sepia(98%) saturate(12%) hue-rotate(175deg) brightness(90%) contrast(96%);
+background-position: 0 -1011px;
+background-image: url(https://facebook.com/rsrc.php/v3/y-/r/EOPZGFLdpJY.png);
+background-size: 25px 2268px;
+background-repeat: no-repeat;
+display: inline-block;
+height: 20px;
+width: 20px;
+} */
+
+
+/* .iconDrop {
+    background-color: white;
+    padding: 10px;
+    border-radius: 30px;
+} */
+
+.optionDrop h1 {
+    margin-top: 5px;
+    color: black;
+    font-size: 20px;
+}
+
+.topbarImg>p {
+    font-size: 15px;
+    font-weight: 400;
+    color: #dce1e9;
+}
+
+
+/* .darkMode {
+    vertical-align: -0.25em;
+    -webkit-filter: invert(62%) sepia(98%) saturate(12%) hue-rotate(175deg) brightness(90%) contrast(96%);
+    background-position: 0 -1179px;
+    background-image: url(https://facebook.com/rsrc.php/v3/y-/r/EOPZGFLdpJY.png);
+    background-size: 25px 2268px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+} */
+
+
+/* .helpAndSupport {
+    vertical-align: -0.25em;
+    -webkit-filter: invert(62%) sepia(98%) saturate(12%) hue-rotate(175deg) brightness(90%) contrast(96%);
+    background-image: url(https://facebook.com/rsrc.php/v3/y-/r/EOPZGFLdpJY.png);
+    background-size: 25px 2268px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    background-position: 0 -1326px;
+    height: 20px;
+    width: 20px;
+} */
+
+
+/* .settings {
+    vertical-align: -0.25em;
+    -webkit-filter: invert(62%) sepia(98%) saturate(12%) hue-rotate(175deg) brightness(90%) contrast(96%);
+    background-image: url(https://facebook.com/rsrc.php/v3/yH/r/hD_JBkCe96v.png);
+    background-size: 33px 1483px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 20px !important;
+    width: 20px !important;
+    background-position: 0 -1093px;
+} */
+
+.hr {
+    margin-left: 12px;
+    margin-bottom: 8px;
+    margin-right: 12px;
+    margin-top: 5px;
+    border-bottom: 2px solid #3E4042;
+}
+
+
+/* .sideinfoDrop {
+    display: flex;
+    flex-direction: column;
+}
+
+.sideinfoDrop>p {
+    font-size: 13px !important;
+    font-weight: 400 !important;
+    color: #b0b3b8 !important;
+    margin-left: 16px !important;
+} */
+
+
+/* .sideinfoDrop>h1 {
+    font-size: 17px !important;
+    font-weight: 600 !important;
+    color: #b0b3b8 !important;
+    margin-left: 15px;
+    margin-top: 10px !important;
+} */
+
+
+/* .feedback {
+    vertical-align: -0.25em;
+    -webkit-filter: invert(62%) sepia(98%) saturate(12%) hue-rotate(175deg) brightness(90%) contrast(96%);
+    background-position: 0 -717px;
+    background-image: url(https://facebook.com/rsrc.php/v3/y-/r/EOPZGFLdpJY.png);
+    background-size: 25px 2268px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+} */
+
+
+/* .Avatar {
+    border-radius: 200px;
+    height: 40px;
+    width: 40px;
+    margin: 10px;
+} */
+
+
+/* .sideinfoDropAvatar {
+    display: flex;
+    flex-direction: column;
+}
+
+.sideinfoDropAvatar>h1 {
+    font-size: 17px !important;
+    font-weight: 600 !important;
+    color: #e4e6eb !important;
+    margin: 0 !important;
+    margin-top: 10px !important;
+}
+
+
+
+.announcementInfo {
+    display: flex;
+    flex-direction: row;
+}
+
+.announcementInfo h1 {
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.announcementInfo span {
+    font-weight: 400 !important;
+}
+
+.announcement {
+    cursor: pointer;
+}
+
+.NoNotif {
+    font-size: 13px !important;
+    font-weight: 400 !important;
+}
+
+.searchBackIcon {
+    background-image: url(https://facebook.com/rsrc.php/v3/yy/r/b6UjiOJoi2u.png);
+    background-size: 25px 1035px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 20px;
+    -webkit-filter: invert(62%) sepia(98%) saturate(12%) hue-rotate(175deg) brightness(90%) contrast(96%);
+    width: 20px;
+    background-position: 0 -125px;
+    vertical-align: -0.25em;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.searchBox {
+    background: #3A3B3C;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    outline: none;
+    padding: 10px;
+    padding-left: 15px;
+    border: none;
+    border-radius: 20px;
+    width: 200px;
+    display: none;
+    color: #fff;
+    margin-left: 10px;
+}
+
+ul {
+    list-style-type: none;
+    margin-top: 10px;
+}
+
+ul li {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+    margin-left: -30px;
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.searchAvatar {
+    margin-right: 10px;
+}
+
+ul li h3 {
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+ul li:hover {
+    background-color: #282A2C
+}
+
+ul li a {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+} */
+
+
+/* .round.profile {
+    display: flex !important;
+    flex-direction: row !important;
+    width: 50%;
+} */
+
+
+/* 
+.round.profile a {
+    display: flex !important;
+    flex-direction: row !important;
+}
+
+.round.profile a p {
+    color: #448BE7;
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.ProfileAvatar {
+    width: 30px !important;
+    height: 30px !important;
+    margin-top: 5px;
+    margin-left: 3px;
+} */
+
+@media screen and (max-width: 768px) {
+    .topbarLink {
+        display: none;
+    }
+}
